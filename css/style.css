@@ -1,0 +1,104 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+    /* @font-face {
+        font-family: 'Roboto';
+        src: local('Roboto'),
+            url('../fonts/Roboto-Regular.ttf') format('truetype');
+    } */
+    @font-face {
+        font-family: "GothamRounded";
+        src: local('GothamRounded-Medium'),
+            url('../fonts/GothamRoundedMedium_21022.ttf') format("truetype");
+        }
+
+    .container{
+        max-width: 1280px;
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+    }
+    body{
+        text-align: center;
+    }
+    .menu a{
+        font: 900 18px 'Roboto';       
+        letter-spacing: 3px;
+        color: #16a085;
+        text-decoration: none;
+        display: inline-flex;
+        justify-content: space-between;
+        margin-top: 32px;
+        margin-bottom: 35px;
+        padding: 0 35px;
+    }
+    img{
+        height:790px;
+        width: 1280px;
+    }
+    .title{
+        font: 900 22px 'Roboto';
+        letter-spacing: 3px;
+        color: #373737;
+        margin-bottom: 34px;
+    }
+    .text-block{
+        display: block;
+        background-color: #f5f6f7;
+        padding-top: 56px;
+        padding-bottom: 70px;
+    }
+    p{
+        font: 900 16px 'Roboto';
+        letter-spacing: 2px;
+        line-height: 26px;
+        color: #373737;
+        margin-left: 113px;
+        margin-right: 108px;
+        /* margin-bottom: 30px; */
+    }
+    #nomargin{
+        margin-bottom: 40px;
+    }
+    a.button{
+        font: 12px 'GothamRounded';
+        letter-spacing: 2px;
+        line-height: 20px;
+        color: #ffffff;
+        background-color: #16a085;
+        display:inline-block;
+        text-decoration: none;
+        border-radius: 3px;
+        padding: 15px 30px;
+        margin-top: 40px;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footermenu{
+        margin-top: 40px;
+        margin-left: 104px;
+    }
+    .footermenu a{
+        font: 900 18px 'Roboto';
+        letter-spacing: 3px;
+        color: #373737;
+        text-decoration: none;
+/*         display: inline-flex;
+        justify-content: space-between; */
+        padding: 0 10px;
+        border-right: 2px solid #16a085 ;
+    }
+    #noborder{
+        border: none;
+    }
+    .copyright{
+        font: 900 16px 'Roboto';
+        letter-spacing: 2px;
+        color: #373737;
+        display: inline-block;
+        text-align: right;
+        margin-top: 47px;
+        margin-right: 104px;
+        margin-bottom: 45px;
+    }
